@@ -1,10 +1,12 @@
 public class DisplayValue {
+
     static boolean bool;
     static double doub;
     static float flo;
     static int in;
     static long lo;
     static String str;
+    static byte by;
 
     public static void main(String[] args) {
         System.out.println("Default values of given premetive datatypes are:");
@@ -14,5 +16,6 @@ public class DisplayValue {
         System.out.println("int = " + in);
         System.out.println("long = " + lo);
         System.out.println("string = " + str);
+        System.out.println("byte=" + by);
     }
 }
