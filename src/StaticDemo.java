@@ -1,12 +1,13 @@
 public class StaticDemo {
-    static int a = 20;
+    static int a = 20;     //VARIABLE
 
-    static void display() {
+    static void display()   //METHOD
+    {
         System.out.println("This is my static method");
     }
 
     static {
-        System.out.println("This is my static block");
+        System.out.println("This is my static block");   //BLOCK
     }
 }
         class demo2{
